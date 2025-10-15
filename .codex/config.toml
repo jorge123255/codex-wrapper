@@ -1,0 +1,16 @@
+# Codex Configuration
+# This file configures Codex CLI behavior for the wrapper
+
+# Sandbox mode: workspace-write allows file editing within the workspace
+[sandbox_workspace_write]
+# Enable network access for web search and URL fetching
+network_access = true
+
+# Approval policy
+# Options: "prompt" (ask each time), "trust-commands" (trust some commands), "untrusted" (minimal trust)
+approval_policy = "trust-commands"
+
+# Default approval mode
+# Options: "suggest", "auto-edit", "full-auto"
+# The wrapper overrides this per-request, but this is the fallback
+approval_mode = "auto-edit"
