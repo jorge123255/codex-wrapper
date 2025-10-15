@@ -41,6 +41,8 @@ const AVAILABLE_MODELS = [
   'gpt-4',
   'gpt-3.5-turbo',
   'o1',
+  'gpt-5-codex',
+  'gpt-5',
   'o1-mini',
   'o3-mini',
 ];
