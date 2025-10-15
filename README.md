@@ -452,6 +452,8 @@ CODEX_NETWORK_ACCESS=true   # Enable network access (default: true)
 
 The wrapper supports all OpenAI models available through Codex:
 
+- `gpt-5-codex` ⭐ NEW (Optimized for coding tasks with many tools)
+- `gpt-5` ⭐ NEW (Broad world knowledge with strong general reasoning)
 - `gpt-4o` (Recommended)
 - `gpt-4o-mini`
 - `gpt-4-turbo`
